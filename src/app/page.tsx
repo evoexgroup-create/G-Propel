@@ -5,6 +5,7 @@ import Stats from "@/components/Stats";
 import HowItWorks from "@/components/HowItWorks";
 import Applications from "@/components/Applications";
 import Vision from "@/components/Vision";
+import Partners from "@/components/Partners";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -19,6 +20,7 @@ export default function Home() {
         <HowItWorks />
         <Applications />
         <Vision />
+        <Partners />
         <Contact />
       </main>
       <Footer />

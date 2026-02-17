@@ -15,12 +15,12 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Partners />
         <Technology />
         <Stats />
         <HowItWorks />
         <Applications />
         <Vision />
-        <Partners />
         <Contact />
       </main>
       <Footer />

@@ -31,9 +31,9 @@ const features = [
   },
   {
     icon: CircleDot,
-    title: "Contactless & Safe",
+    title: "Autonomous & Safe",
     description:
-      "Our proprietary contactless propulsion technology is completely safe for pedestrians, cyclists, and wildlife — nothing dangerous on the road surface.",
+      "Our road-powered vehicles operate autonomously, eliminating human error — the leading cause of accidents. No distracted drivers, no fatigue, no misjudgment. Just safer roads for everyone.",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function Technology() {
             The Technology
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-4 tracking-tight">
-            Beyond Electric Vehicles
+            Beyond Battery Vehicles
           </h2>
           <p className="text-muted text-lg mt-6 max-w-2xl mx-auto leading-relaxed">
             We&apos;re not improving the EV — we&apos;re replacing the need for

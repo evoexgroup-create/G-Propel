@@ -14,14 +14,14 @@ const partners = [
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30 },
   { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45 },
   { name: "Meshpoints", logo: null, height: 0 },
-  { name: "Fraunhofer Germany", logo: null, height: 0 },
-  { name: "AIMS.GOV", logo: "/partners/aims.svg", height: 40 },
-  { name: "BITS Pilani Dubai", logo: null, height: 0 },
+  { name: "Fraunhofer Germany", logo: "/partners/Fraunhofer.jpg", height: 40 },
+  { name: "AIMS.GOV", logo: "/partners/AIMS-.jpg", height: 45 },
+  { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40 },
   { name: "WSU", logo: "/partners/wsu.png", height: 40 },
-  { name: "MQU", logo: null, height: 0 },
-  { name: "Swinburne University", logo: null, height: 0 },
-  { name: "Apparent Power Control System", logo: null, height: 0 },
-  { name: "CSIRO", logo: null, height: 0 },
+  { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40 },
+  { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40 },
+  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40 },
+  { name: "CSIRO", logo: "/partners/CSIRO-.jpg", height: 40 },
 ];
 
 export default function Partners() {
@@ -71,7 +71,7 @@ export default function Partners() {
                   alt={partner.name}
                   width={140}
                   height={partner.height}
-                  className="object-contain max-h-12 w-auto brightness-0 invert opacity-60 group-hover:opacity-100 transition-opacity duration-300"
+                  className="object-contain max-h-12 w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300"
                 />
               ) : (
                 <span className="text-sm font-bold text-muted group-hover:text-foreground transition-colors text-center leading-tight tracking-wide">

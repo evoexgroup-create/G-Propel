@@ -10,6 +10,7 @@ const team = [
     role: "Founder & Engineer",
     location: "WA, Australia",
     image: "/team/sam.png",
+    scale: "scale-150",
     description:
       "32+ years of techno-commercial expertise. Led $3.5B+ in high-impact energy projects. Delivers game-changing technology solutions.",
   },
@@ -18,6 +19,7 @@ const team = [
     role: "Technical Advisor",
     location: "Melbourne, Australia",
     image: "/team/ramin.png",
+    scale: "scale-[2]",
     description:
       "20+ years as Senior R&D and Technology Manager. PhD Candidate in Technology, Innovation & Governance. Expert in system integration and control engineering.",
   },
@@ -26,6 +28,7 @@ const team = [
     role: "Co-Founder",
     location: "Perth, Australia",
     image: "/team/ritthika.png",
+    scale: "scale-150",
     description:
       "Robotics student at UWA. Prototype fabricator and driving force behind GPropel's mission for a zero-emission future.",
   },
@@ -73,7 +76,7 @@ export default function Team() {
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover scale-125"
+                  className={`object-cover ${member.scale}`}
                 />
               </div>
               <h3 className="text-xl font-semibold mb-1">{member.name}</h3>

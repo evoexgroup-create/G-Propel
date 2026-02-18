@@ -15,10 +15,7 @@ const partners = [
   { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45 },
   { name: "Meshpoints", logo: null, height: 0 },
   { name: "Fraunhofer Germany", logo: "/partners/fraunhofer.svg", height: 40 },
-  { name: "AIMS.GOV", logo: "/partners/aims.svg", height: 45 },
-  { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.svg", height: 45 },
   { name: "WSU", logo: "/partners/wsu.png", height: 40 },
-  { name: "Swinburne University", logo: "/partners/swinburne.svg", height: 40 },
 ];
 
 export default function Partners() {
@@ -52,7 +49,7 @@ export default function Partners() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4"
+          className="flex flex-wrap justify-center gap-4"
         >
           {partners.map((partner, i) => (
             <motion.div
@@ -60,7 +57,7 @@ export default function Partners() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.5, delay: 0.3 + i * 0.06 }}
-              className="group flex items-center justify-center p-6 h-28 rounded-2xl border border-border/50 bg-background/50 hover:border-primary/30 hover:bg-surface-light transition-all duration-300"
+              className="group flex items-center justify-center p-6 h-28 w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] md:w-[calc(20%-13px)] rounded-2xl border border-border/50 bg-background/50 hover:border-primary/30 hover:bg-surface-light transition-all duration-300"
             >
               {partner.logo ? (
                 <Image

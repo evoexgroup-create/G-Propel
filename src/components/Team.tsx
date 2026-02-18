@@ -19,7 +19,7 @@ const team = [
     role: "Technical Advisor",
     location: "Melbourne, Australia",
     image: "/team/ramin.png",
-    scale: "scale-[2]",
+    scale: "scale-[1.3]",
     description:
       "20+ years as Senior R&D and Technology Manager. PhD Candidate in Technology, Innovation & Governance. Expert in system integration and control engineering.",
   },

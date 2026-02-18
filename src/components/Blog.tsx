@@ -12,7 +12,7 @@ const posts = [
       "Sam Saravanan took the stage at the Gap Blitz Demo Night hosted at Propel Fremantle, sharing GPropel's vision for zero-emission road-powered transport with founders, investors, and innovation leaders.",
     date: "Jun 2025",
     category: "Events",
-    image: "/blog/blog1.jpg",
+    image: "/blog/blog1.jpg.png",
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7373342897871634432/",
   },
   {
@@ -21,7 +21,7 @@ const posts = [
       "Featured by Disruptors Co as part of the Gap Blitz program. Sam is disrupting how cars and other vehicles could get around — read on to see how his tech might help reduce emissions and save lives.",
     date: "May 2025",
     category: "Feature",
-    image: "/blog/blog2.jpg",
+    image: "/blog/blog2.jpg.png",
     url: "https://www.linkedin.com/pulse/gap-blitz-founder-stories-how-sam-saravanan-changing-way-vzdmc/",
   },
   {
@@ -30,7 +30,7 @@ const posts = [
       "GPROPEL has landed in the CSIRO Gap Blitz Acceleration Cohort. The startup pool is electric — next level innovation, collaboration, and big ideas everywhere. A huge thank you to CSIRO for selecting us.",
     date: "Feb 2025",
     category: "Accelerator",
-    image: "/blog/blog3.jpg",
+    image: "/blog/blog3.jpg.png",
     url: "https://www.linkedin.com/posts/leahlucas_gapblitz-startups-innovation-activity-7302476135953481728-HXyh/",
   },
   {
@@ -39,7 +39,7 @@ const posts = [
       "Many wireless mobility systems work with Wireless Power Transfer (WPT) — charging batteries via coils. GPropel's approach is Wireless Power Utilisation (WPU) — which skips the charging step entirely.",
     date: "2025",
     category: "Technology",
-    image: "/blog/blog4.jpg",
+    image: "/blog/blog4.jpg.png",
     url: "https://www.nexxtindustry.com/post/voices-in-emobility-what-if-roads-could-power-vehicles",
   },
 ];

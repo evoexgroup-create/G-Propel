@@ -55,7 +55,7 @@ export default function Vision() {
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 w-full h-full object-cover opacity-20"
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
       >
         <source src="/videos/vid3.mp4" type="video/mp4" />
       </video>

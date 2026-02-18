@@ -54,7 +54,7 @@ export default function HowItWorks() {
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 w-full h-full object-cover opacity-20"
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
       >
         <source src="/videos/vid2.mp4" type="video/mp4" />
       </video>

@@ -9,7 +9,7 @@ const team = [
     name: "Sam Saravanan",
     role: "Founder & Engineer",
     location: "WA, Australia",
-    image: "/team/sam.png",
+    image: "/team/sam.jpeg",
     scale: "scale-150",
     description:
       "32+ years of techno-commercial expertise. Led $3.5B+ in high-impact energy projects. Delivers game-changing technology solutions.",

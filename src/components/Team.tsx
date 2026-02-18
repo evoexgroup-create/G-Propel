@@ -10,7 +10,7 @@ const team = [
     role: "Founder & Engineer",
     location: "WA, Australia",
     image: "/team/sam.jpeg",
-    scale: "scale-150",
+    scale: "scale-125 translate-y-3",
     description:
       "32+ years of techno-commercial expertise. Led $3.5B+ in high-impact energy projects. Delivers game-changing technology solutions.",
   },

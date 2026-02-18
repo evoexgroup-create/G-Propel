@@ -5,23 +5,23 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const partners = [
-  { name: "EnergyLab", logo: "/partners/energylab.png", height: 40 },
-  { name: "PlusEight", logo: "/partners/pluseight.png", height: 40 },
-  { name: "Propel Fremantle", logo: null, height: 0 },
-  { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45 },
-  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50 },
-  { name: "City of Canning", logo: "/partners/canning.webp", height: 45 },
-  { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30 },
-  { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45 },
-  { name: "Meshpoints", logo: null, height: 0 },
-  { name: "Fraunhofer Germany", logo: "/partners/Fraunhofer.jpg", height: 40 },
-  { name: "AIMS.GOV", logo: "/partners/AIMS-.jpg", height: 45 },
-  { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40 },
-  { name: "WSU", logo: "/partners/wsu.png", height: 40 },
-  { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40 },
-  { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40 },
-  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40 },
-  { name: "CSIRO", logo: "/partners/CSIRO-.jpg", height: 40 },
+  { name: "EnergyLab", logo: "/partners/energylab.png", height: 40, url: "https://energylab.org.au" },
+  { name: "PlusEight", logo: "/partners/pluseight.png", height: 40, url: "https://pluseight.com.au" },
+  { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
+  { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
+  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://aarprecinct.com.au" },
+  { name: "City of Canning", logo: "/partners/canning.webp", height: 45, url: "https://www.canning.wa.gov.au" },
+  { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
+  { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45, url: "https://www.fremantle.wa.gov.au" },
+  { name: "Meshpoints", logo: null, height: 0, url: "https://meshpoints.com.au" },
+  { name: "Fraunhofer Germany", logo: "/partners/Fraunhofer.jpg", height: 40, url: "https://www.fraunhofer.de/en.html" },
+  { name: "AIMS.GOV", logo: "/partners/AIMS-.jpg", height: 45, url: "https://www.aims.gov.au" },
+  { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40, url: "https://www.bits-pilani.ac.in/dubai" },
+  { name: "WSU", logo: "/partners/wsu.png", height: 40, url: "https://www.westernsydney.edu.au" },
+  { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40, url: "https://www.mq.edu.au" },
+  { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40, url: "https://www.swinburne.edu.au" },
+  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40, url: "https://www.appcs.com.au" },
+  { name: "CSIRO", logo: "/partners/CSIRO-.jpg", height: 40, url: "https://www.csiro.au" },
 ];
 
 export default function Partners() {
@@ -58,8 +58,11 @@ export default function Partners() {
           className="flex flex-wrap justify-center gap-4"
         >
           {partners.map((partner, i) => (
-            <motion.div
+            <motion.a
               key={i}
+              href={partner.url}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.5, delay: 0.3 + i * 0.06 }}
@@ -95,7 +98,7 @@ export default function Partners() {
                   )}
                 </span>
               )}
-            </motion.div>
+            </motion.a>
           ))}
         </motion.div>
       </div>

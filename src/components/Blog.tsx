@@ -109,13 +109,13 @@ export default function Blog() {
                 className="md:flex"
               >
                 {/* Image */}
-                <div className="relative w-full md:w-1/2 h-64 md:h-auto min-h-[280px] bg-surface/50">
+                <div className="relative w-full md:w-1/2 h-72 md:h-auto min-h-[320px] bg-surface/50">
                   {posts[current].image ? (
                     <Image
                       src={posts[current].image}
                       alt={posts[current].title}
                       fill
-                      className="object-cover"
+                      className="object-contain"
                     />
                   ) : (
                     <div className="absolute inset-0 flex items-center justify-center">

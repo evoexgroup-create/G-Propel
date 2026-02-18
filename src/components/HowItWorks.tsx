@@ -37,10 +37,22 @@ export default function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="relative py-32 bg-surface/50"
+      className="relative py-32 overflow-hidden"
     >
+      {/* Background Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-10"
+      >
+        <source src="/videos/vid2.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background" />
+
       {/* Top border accent */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent z-10" />
 
       <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}

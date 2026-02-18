@@ -6,6 +6,18 @@ import { ArrowDown, Zap, Shield, Globe } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-15"
+      >
+        <source src="/videos/vid1.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
+
       {/* Background Effects */}
       <div className="absolute inset-0 bg-grid" />
       <div className="absolute inset-0 bg-radial-fade" />

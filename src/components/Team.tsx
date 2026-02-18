@@ -68,12 +68,12 @@ export default function Team() {
               transition={{ duration: 0.6, delay: 0.2 + i * 0.15 }}
               className="group text-center p-8 rounded-2xl border border-border/50 bg-surface/30 backdrop-blur-sm hover:border-primary/30 hover:bg-surface/60 transition-all duration-300"
             >
-              <div className="relative w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-2 border-primary/20 group-hover:border-primary/40 transition-colors">
+              <div className="relative w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
                 <Image
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover"
+                  className="object-cover scale-125"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-1">{member.name}</h3>

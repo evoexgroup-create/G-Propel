@@ -8,7 +8,6 @@ import Vision from "@/components/Vision";
 import Partners from "@/components/Partners";
 import Team from "@/components/Team";
 import Blog from "@/components/Blog";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -25,7 +24,6 @@ export default function Home() {
         <Vision />
         <Team />
         <Blog />
-        <Contact />
       </main>
       <Footer />
     </>

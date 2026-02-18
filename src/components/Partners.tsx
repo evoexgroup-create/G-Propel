@@ -10,7 +10,7 @@ const partners = [
   { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
   { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://aarprecinct.com.au" },
-  { name: "City of Canning", logo: "/partners/canning.webp", height: 45, url: "https://www.canning.wa.gov.au" },
+  { name: "City of Canning", logo: "/partners/canning.webp", height: 45, url: "https://www.canning.wa.gov.au", filter: "grayscale invert brightness-200" },
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
   { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45, url: "https://www.fremantle.wa.gov.au" },
   { name: "Meshpoints", logo: null, height: 0, url: "https://meshpoints.com.au" },
@@ -74,7 +74,7 @@ export default function Partners() {
                   alt={partner.name}
                   width={140}
                   height={partner.height}
-                  className="object-contain max-h-12 w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300"
+                  className={`object-contain max-h-12 w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300 ${"filter" in partner ? partner.filter : ""}`}
                 />
               ) : (
                 <span className="text-sm font-bold text-muted group-hover:text-foreground transition-colors text-center leading-tight tracking-wide">

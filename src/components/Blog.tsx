@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const posts = [
   {
-    title: "GPropel at Gap Blitz Demo Night — Propel Fremantle",
+    title: "GPropel at Demo Night — Propel Fremantle",
     excerpt:
-      "Sam Saravanan took the stage at the Gap Blitz Demo Night hosted at Propel Fremantle, sharing GPropel's vision for zero-emission road-powered transport with founders, investors, and innovation leaders.",
+      "Sam Saravanan took the stage at Demo Night hosted at Propel Fremantle, sharing GPropel's vision for zero-emission road-powered transport with founders, investors, and innovation leaders.",
     date: "Jun 2025",
     category: "Events",
     image: "/blog/blog1.jpg.png",
@@ -25,9 +25,9 @@ const posts = [
     url: "https://www.linkedin.com/pulse/gap-blitz-founder-stories-how-sam-saravanan-changing-way-vzdmc/",
   },
   {
-    title: "CSIRO — GAP Blitz Acceleration Cohort",
+    title: "CSIRO — Acceleration Cohort",
     excerpt:
-      "GPROPEL has landed in the CSIRO Gap Blitz Acceleration Cohort. The startup pool is electric — next level innovation, collaboration, and big ideas everywhere. A huge thank you to CSIRO for selecting us.",
+      "GPROPEL has landed in the CSIRO Acceleration Cohort. The startup pool is electric — next level innovation, collaboration, and big ideas everywhere. A huge thank you to CSIRO for selecting us.",
     date: "Feb 2025",
     category: "Accelerator",
     image: "/blog/blog3.jpg.png",

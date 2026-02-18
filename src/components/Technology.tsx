@@ -60,9 +60,9 @@ export default function Technology() {
             Beyond Battery Vehicles
           </h2>
           <p className="text-muted text-lg mt-6 max-w-2xl mx-auto leading-relaxed">
-            We&apos;re not improving the EV — we&apos;re replacing the need for
-            one. Our road propulsion system applies new physics to eliminate
-            vehicle powertrains entirely.
+            We&apos;re not improving the EV — we&apos;re replacing it with
+            Hybrid electromagnetic force. Our road propulsion system applies
+            first principle physics to eliminate vehicle powertrains entirely.
           </p>
         </motion.div>
 

@@ -10,7 +10,6 @@ const navLinks = [
   { label: "Applications", href: "#applications" },
   { label: "Vision", href: "#vision" },
   { label: "Team", href: "#team" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -61,16 +60,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* CTA */}
-          <div className="hidden md:flex items-center gap-3">
-            <a
-              href="#contact"
-              className="px-5 py-2.5 bg-primary text-background text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors"
-            >
-              Get in Touch
-            </a>
-          </div>
-
           {/* Mobile toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -101,13 +90,6 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#contact"
-                onClick={() => setMobileOpen(false)}
-                className="mt-2 px-5 py-3 bg-primary text-background text-sm font-medium rounded-lg text-center hover:bg-primary-dark transition-colors"
-              >
-                Get in Touch
-              </a>
             </div>
           </motion.div>
         )}

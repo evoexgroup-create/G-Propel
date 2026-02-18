@@ -6,7 +6,6 @@ import Image from "next/image";
 
 const partners = [
   { name: "EnergyLab", logo: "/partners/energylab.png", height: 40 },
-  { name: "CSIRO", logo: "/partners/csiro.png", height: 45 },
   { name: "PlusEight", logo: "/partners/pluseight.png", height: 40 },
   { name: "Propel Fremantle", logo: null, height: 0 },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45 },
@@ -15,6 +14,13 @@ const partners = [
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30 },
   { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45 },
   { name: "Meshpoints", logo: null, height: 0 },
+  { name: "Fraunhofer Germany", logo: null, height: 0 },
+  { name: "AIMS.GOV", logo: null, height: 0 },
+  { name: "BITS Pilani Dubai", logo: null, height: 0 },
+  { name: "WSU", logo: null, height: 0 },
+  { name: "MQU", logo: null, height: 0 },
+  { name: "Swinburne University", logo: null, height: 0 },
+  { name: "Apparent Power Control System", logo: null, height: 0 },
 ];
 
 export default function Partners() {
@@ -39,8 +45,8 @@ export default function Partners() {
             Working With Industry Leaders
           </h2>
           <p className="text-muted text-lg mt-4 max-w-xl mx-auto">
-            Backed by leading accelerators, government bodies, and innovation
-            hubs across Australia.
+            Backed by leading accelerators, government bodies, universities,
+            and innovation hubs worldwide.
           </p>
         </motion.div>
 
@@ -77,12 +83,14 @@ export default function Partners() {
                         Fremantle
                       </span>
                     </>
+                  ) : partner.name === "Meshpoints" ? (
+                    <span className="text-base tracking-wider">
+                      #meshpoints
+                    </span>
                   ) : (
-                    <>
-                      <span className="text-base tracking-wider">
-                        #meshpoints
-                      </span>
-                    </>
+                    <span className="text-xs font-semibold uppercase tracking-widest">
+                      {partner.name}
+                    </span>
                   )}
                 </span>
               )}

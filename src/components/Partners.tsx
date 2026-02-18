@@ -14,13 +14,11 @@ const partners = [
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30 },
   { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45 },
   { name: "Meshpoints", logo: null, height: 0 },
-  { name: "Fraunhofer Germany", logo: null, height: 0 },
-  { name: "AIMS.GOV", logo: null, height: 0 },
-  { name: "BITS Pilani Dubai", logo: null, height: 0 },
-  { name: "WSU", logo: null, height: 0 },
-  { name: "MQU", logo: null, height: 0 },
-  { name: "Swinburne University", logo: null, height: 0 },
-  { name: "Apparent Power Control System", logo: null, height: 0 },
+  { name: "Fraunhofer Germany", logo: "/partners/fraunhofer.svg", height: 40 },
+  { name: "AIMS.GOV", logo: "/partners/aims.svg", height: 45 },
+  { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.svg", height: 45 },
+  { name: "WSU", logo: "/partners/wsu.png", height: 40 },
+  { name: "Swinburne University", logo: "/partners/swinburne.svg", height: 40 },
 ];
 
 export default function Partners() {

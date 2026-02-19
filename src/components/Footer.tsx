@@ -40,12 +40,12 @@ export default function Footer() {
               system. New physics in mobility — roads that power vehicles.
             </p>
             <p className="text-muted text-sm leading-relaxed max-w-sm mt-4">
-              Contact us at{" "}
+              Get in touch:{" "}
               <a href="mailto:info@gpropel.com" className="text-primary hover:underline">info@gpropel.com</a>
-              {" "}or{" "}
+              {" | "}
               <a href="mailto:sam.s@gpropel.com" className="text-primary hover:underline">sam.s@gpropel.com</a>
-              {" "}or{" "}
-              <a href="tel:+61448352415" className="text-muted hover:text-foreground transition-colors">+61448352415</a>
+              {" | "}
+              <a href="tel:+61448352415" className="text-muted hover:text-foreground transition-colors">+61 448 352 415</a>
             </p>
           </div>
 

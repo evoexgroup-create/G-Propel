@@ -39,6 +39,14 @@ export default function Footer() {
               Building the world&apos;s first zero-emission road propulsion
               system. New physics in mobility — roads that power vehicles.
             </p>
+            <p className="text-muted text-sm leading-relaxed max-w-sm mt-4">
+              Contact us at{" "}
+              <a href="mailto:info@gpropel.com" className="text-primary hover:underline">info@gpropel.com</a>
+              {" "}or{" "}
+              <a href="mailto:sam.s@gpropel.com" className="text-primary hover:underline">sam.s@gpropel.com</a>
+              {" "}or{" "}
+              <a href="tel:+61448352415" className="text-muted hover:text-foreground transition-colors">+61448352415</a>
+            </p>
           </div>
 
           {/* Links */}
@@ -70,13 +78,13 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-6">
             <a
-              href="#"
+              href="/privacy-policy"
               className="text-sm text-muted hover:text-foreground transition-colors"
             >
               Privacy Policy
             </a>
             <a
-              href="#"
+              href="/privacy-policy"
               className="text-sm text-muted hover:text-foreground transition-colors"
             >
               Terms of Service

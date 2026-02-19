@@ -77,7 +77,10 @@ export default function HowItWorks() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-4 tracking-tight">
             The Road <span className="text-gradient">Powers</span> the Journey
           </h2>
-          <p className="text-muted text-lg mt-6 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl italic text-primary/80 mt-4 font-medium">
+            Electromagnetic Principle
+          </p>
+          <p className="text-muted text-lg mt-4 max-w-2xl mx-auto leading-relaxed">
             A fundamentally new approach to transportation, where the
             infrastructure itself becomes the propulsion system.
           </p>

@@ -7,6 +7,7 @@ import Applications from "@/components/Applications";
 import Vision from "@/components/Vision";
 import Partners from "@/components/Partners";
 import Team from "@/components/Team";
+import Prototype from "@/components/Prototype";
 import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Technology />
         <Stats />
         <HowItWorks />
+        <Prototype />
         <Applications />
         <Vision />
         <Team />

@@ -6,10 +6,10 @@ import Image from "next/image";
 
 const partners = [
   { name: "EnergyLab", logo: "/partners/energylab.png", height: 40, url: "https://energylab.org.au" },
-  { name: "PlusEight", logo: "/partners/pluseight.png", height: 40, url: "https://pluseight.com.au" },
+  { name: "PlusEight", logo: "/partners/pluseight.png", height: 40, url: "https://pluseight.spacecubed.com/" },
   { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
-  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://aarprecinct.com.au" },
+  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://www.theaarp.com.au/" },
   { name: "City of Canning", logo: "/partners/canning.webp", height: 45, url: "https://www.canning.wa.gov.au", filter: "grayscale invert brightness-200" },
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
   { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45, url: "https://www.fremantle.wa.gov.au" },

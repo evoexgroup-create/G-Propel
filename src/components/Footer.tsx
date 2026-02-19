@@ -1,6 +1,6 @@
 "use client";
 
-import { Zap } from "lucide-react";
+import Image from "next/image";
 
 const footerLinks = {
   Technology: [
@@ -28,9 +28,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center">
-                <Zap className="w-5 h-5 text-primary" />
-              </div>
+              <Image src="/logo.png" alt="GPropel" width={40} height={40} className="rounded-xl" />
               <span className="text-xl font-bold tracking-tight">
                 G-<span className="text-gradient">Propel</span>
               </span>

@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Technology", href: "#technology" },
@@ -37,9 +38,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-              <Zap className="w-5 h-5 text-primary" />
-            </div>
+            <Image src="/logo.png" alt="GPropel" width={40} height={40} className="rounded-xl" />
             <div>
               <span className="text-xl font-bold tracking-tight">
                 G-<span className="text-gradient">Propel</span>

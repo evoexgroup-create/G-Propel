@@ -79,7 +79,7 @@ export default function Prototype() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -40 }}
                 transition={{ duration: 0.4 }}
-                className="relative w-full aspect-[16/10]"
+                className="relative w-full aspect-[16/5]"
               >
                 <Image
                   src={images[current].src}

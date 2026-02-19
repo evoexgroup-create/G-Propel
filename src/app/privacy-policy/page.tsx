@@ -1,4 +1,4 @@
-import { Zap } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -14,9 +14,7 @@ export default function PrivacyPolicy() {
       <header className="border-b border-border/50 bg-surface/30 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center">
-              <Zap className="w-4 h-4 text-primary" />
-            </div>
+            <Image src="/logo.png" alt="GPropel" width={32} height={32} className="rounded-lg" />
             <span className="text-lg font-bold tracking-tight">
               G-<span className="text-gradient">Propel</span>
             </span>

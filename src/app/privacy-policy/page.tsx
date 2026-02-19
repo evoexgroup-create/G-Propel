@@ -13,11 +13,8 @@ export default function PrivacyPolicy() {
       {/* Header */}
       <header className="border-b border-border/50 bg-surface/30 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.png" alt="GPropel" width={32} height={32} className="rounded-lg" />
-            <span className="text-lg font-bold tracking-tight">
-              G-<span className="text-gradient">Propel</span>
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image src="/logo.png" alt="GPropel" width={50} height={50} className="rounded-lg" />
           </Link>
           <Link
             href="/"

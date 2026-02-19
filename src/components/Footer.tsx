@@ -27,11 +27,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <a href="#" className="flex items-center gap-2 mb-4">
-              <Image src="/logo.png" alt="GPropel" width={40} height={40} className="rounded-xl" />
-              <span className="text-xl font-bold tracking-tight">
-                G-<span className="text-gradient">Propel</span>
-              </span>
+            <a href="#" className="flex items-center mb-4">
+              <Image src="/logo.png" alt="GPropel" width={70} height={70} className="rounded-xl" />
             </a>
             <p className="text-muted text-sm leading-relaxed max-w-sm">
               Building the world&apos;s first zero-emission road propulsion

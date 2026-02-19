@@ -30,7 +30,7 @@ export default function Prototype() {
   }, []);
 
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative pt-32 pb-16 overflow-hidden">
       <div className="absolute inset-0 bg-radial-fade opacity-30" />
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent z-10" />
 

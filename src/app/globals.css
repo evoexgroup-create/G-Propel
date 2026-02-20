@@ -3,9 +3,9 @@
 @theme inline {
   --color-background: #0a0a0a;
   --color-foreground: #ededed;
-  --color-primary: #22c55e;
-  --color-primary-dark: #16a34a;
-  --color-primary-light: #4ade80;
+  --color-primary: #4ade80;
+  --color-primary-dark: #22c55e;
+  --color-primary-light: #86efac;
   --color-surface: #111111;
   --color-surface-light: #1a1a1a;
   --color-border: #222222;

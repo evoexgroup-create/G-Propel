@@ -107,7 +107,7 @@ export default function HowItWorks() {
                   {/* Content */}
                   <div className={`lg:w-1/2 ${isEven ? "lg:pr-16 lg:text-right" : "lg:pl-16"}`}>
                     <div className="p-8 rounded-2xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/20 transition-colors">
-                      <span className="text-5xl font-bold text-primary/20">
+                      <span className="text-5xl font-bold text-primary/50">
                         {step.number}
                       </span>
                       <h3 className="text-2xl font-bold mt-2 mb-4">

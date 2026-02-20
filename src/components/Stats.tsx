@@ -15,7 +15,7 @@ export default function Stats() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="relative py-20">
+    <section className="relative pt-8 pb-20">
       <div ref={ref} className="max-w-7xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

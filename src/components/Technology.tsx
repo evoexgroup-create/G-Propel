@@ -42,7 +42,7 @@ export default function Technology() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="technology" className="relative py-32 overflow-hidden">
+    <section id="technology" className="relative pt-32 pb-16 overflow-hidden">
       <div className="absolute inset-0 bg-radial-fade opacity-50" />
 
       <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">

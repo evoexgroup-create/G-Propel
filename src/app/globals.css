@@ -3,9 +3,9 @@
 @theme inline {
   --color-background: #0a0a0a;
   --color-foreground: #ededed;
-  --color-primary: #4ade80;
-  --color-primary-dark: #22c55e;
-  --color-primary-light: #86efac;
+  --color-primary: #39ff75;
+  --color-primary-dark: #4ade80;
+  --color-primary-light: #7dffaa;
   --color-surface: #111111;
   --color-surface-light: #1a1a1a;
   --color-border: #222222;
@@ -63,7 +63,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #4ade80, #86efac, #bbf7d0);
+  background: linear-gradient(135deg, #39ff75, #7dffaa, #b3ffd0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

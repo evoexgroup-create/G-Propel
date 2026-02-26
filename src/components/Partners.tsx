@@ -7,14 +7,14 @@ import Image from "next/image";
 const partners = [
   // Row 1
   { name: "Fraunhofer Germany", logo: "/partners/Fraunhofer.jpg", height: 40, url: "https://www.fraunhofer.de/en.html" },
-  { name: "AIMS.GOV", logo: "/partners/AIMS-.jpg", height: 45, url: "https://www.aims.gov.au" },
+  { name: "AIMS.GOV", logo: "/partners/AIMS-.jpg", height: 68, url: "https://www.aims.gov.au", maxHeight: "max-h-[72px]" },
   { name: "CSIRO", logo: "/partners/CSIRO-.jpg", height: 60, url: "https://www.csiro.au", maxHeight: "max-h-[72px]" },
   { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
-  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://www.theaarp.com.au/" },
+  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 45, url: "https://www.theaarp.com.au/" },
   // Row 2
   { name: "WSU", logo: "/partners/wsu.png", height: 40, url: "https://www.westernsydney.edu.au", filter: "brightness-150" },
   { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40, url: "https://www.bits-pilani.ac.in/dubai" },
-  { name: "CORE WA", logo: "/partners/Core.png", height: 40, url: "https://www.corehub.com.au/aarp" },
+  { name: "CORE WA", logo: "/partners/Core.png", height: 60, url: "https://www.corehub.com.au/aarp", maxHeight: "max-h-[72px]" },
   { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40, url: "https://www.swinburne.edu.au" },
   { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40, url: "https://www.mq.edu.au" },
   // Row 3
@@ -24,9 +24,9 @@ const partners = [
   { name: "Meshpoints", logo: null, height: 0, url: "https://www.meshpoints.com/" },
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
   // Row 4
-  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40, url: "https://www.appcs.in/" },
+  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 60, url: "https://www.appcs.in/", maxHeight: "max-h-[72px]" },
   { name: "Lotterywest", logo: "/partners/Lotterywest.png", height: 40, url: "https://www.lotterywest.wa.gov.au/" },
-  { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 40, url: "https://climate-kic.org.au/" },
+  { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 60, url: "https://climate-kic.org.au/", maxHeight: "max-h-[72px]" },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
   { name: "Curtin University", logo: "/partners/Curtin University.jpg", height: 40, url: "https://www.curtin.edu.au/" },
 ];

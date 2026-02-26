@@ -73,7 +73,7 @@ export default function Team() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 + i * 0.15 }}
-              className="group text-center p-8 rounded-2xl border border-border/50 bg-surface/30 backdrop-blur-sm hover:border-primary/30 hover:bg-surface/60 transition-all duration-300"
+              className="group flex flex-col text-center p-8 rounded-2xl border border-border/50 bg-surface/30 backdrop-blur-sm hover:border-primary/30 hover:bg-surface/60 transition-all duration-300"
             >
               <div className="relative w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
                 <Image
@@ -88,7 +88,7 @@ export default function Team() {
                 {member.role}
               </p>
               <p className="text-muted text-xs mb-4">{member.location}</p>
-              <p className="text-muted text-sm leading-relaxed">
+              <p className="text-muted text-sm leading-relaxed flex-1">
                 {member.description}
               </p>
               <a

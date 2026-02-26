@@ -12,7 +12,7 @@ const partners = [
   { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
   { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://www.theaarp.com.au/" },
   // Row 2
-  { name: "WSU", logo: "/partners/wsu.png", height: 40, url: "https://www.westernsydney.edu.au" },
+  { name: "WSU", logo: "/partners/wsu.png", height: 40, url: "https://www.westernsydney.edu.au", filter: "brightness-150" },
   { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40, url: "https://www.bits-pilani.ac.in/dubai" },
   { name: "CORE WA", logo: "/partners/Core.png", height: 40, url: "https://www.corehub.com.au/aarp" },
   { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40, url: "https://www.swinburne.edu.au" },

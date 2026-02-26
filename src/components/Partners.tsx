@@ -24,7 +24,7 @@ const partners = [
   { name: "Meshpoints", logo: null, height: 0, url: "https://www.meshpoints.com/" },
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
   // Row 4
-  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 90, url: "https://www.appcs.in/", maxHeight: "max-h-20", maxWidth: 210 },
+  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40, url: "https://www.appcs.in/", scale: "scale-[2.25]" },
   { name: "Lotterywest", logo: "/partners/Lotterywest.png", height: 40, url: "https://www.lotterywest.wa.gov.au/" },
   { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 60, url: "https://climate-kic.org.au/", maxHeight: "max-h-[72px]" },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
@@ -81,7 +81,7 @@ export default function Partners() {
                   alt={partner.name}
                   width={"maxWidth" in partner ? partner.maxWidth : 140}
                   height={partner.height}
-                  className={`object-contain ${"maxHeight" in partner ? partner.maxHeight : "max-h-12"} w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300 ${"filter" in partner ? partner.filter : ""}`}
+                  className={`object-contain ${"maxHeight" in partner ? partner.maxHeight : "max-h-12"} w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300 ${"filter" in partner ? partner.filter : ""} ${"scale" in partner ? partner.scale : ""}`}
                   style={"maxWidth" in partner ? { maxWidth: partner.maxWidth } : undefined}
                 />
               ) : (

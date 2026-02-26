@@ -31,7 +31,7 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-background/80 backdrop-blur-xl border-b border-border"
-          : "bg-transparent"
+          : "bg-background/40 backdrop-blur-md"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -47,7 +47,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="px-4 py-2 text-sm text-muted hover:text-foreground transition-colors rounded-lg hover:bg-surface-light"
+                className="px-4 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors rounded-lg hover:bg-surface-light"
               >
                 {link.label}
               </a>

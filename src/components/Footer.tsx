@@ -10,12 +10,10 @@ const footerLinks = {
   ],
   Company: [
     { label: "Vision", href: "#vision" },
-    { label: "Contact", href: "#contact" },
-    { label: "Careers", href: "#contact" },
   ],
   Resources: [
-    { label: "Research", href: "#technology" },
-    { label: "Press", href: "#contact" },
+    { label: "Research", href: "#prototype" },
+    { label: "Press", href: "#blog" },
     { label: "FAQ", href: "#technology" },
   ],
 };

@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
+import { Linkedin } from "lucide-react";
 
 const team = [
   {
@@ -11,6 +12,7 @@ const team = [
     location: "WA, Australia",
     image: "/team/sam.jpeg",
     scale: "scale-[1.35] translate-y-3",
+    linkedin: "https://www.linkedin.com/in/sam-saravanan-900ba434",
     description:
       "32+ years of techno-commercial expertise. Led $3.5B+ in high-impact energy projects. Delivers game-changing technology solutions.",
   },
@@ -20,6 +22,7 @@ const team = [
     location: "Melbourne, Australia",
     image: "/team/ramin.png",
     scale: "scale-[1.32]",
+    linkedin: "https://www.linkedin.com/in/ramin-ranjbar-m/",
     description:
       "20+ years as Senior R&D and Technology Manager. PhD Candidate in Technology, Innovation & Governance. Expert in system integration and control engineering.",
   },
@@ -29,6 +32,7 @@ const team = [
     location: "Perth, Australia",
     image: "/team/ritthika.png",
     scale: "scale-150",
+    linkedin: "https://www.linkedin.com/in/ritthika-saravanan-34b6a2326/",
     description:
       "Robotics student at UWA. Prototype fabricator and driving force behind GPropel's mission for a zero-emission future.",
   },
@@ -87,6 +91,15 @@ export default function Team() {
               <p className="text-muted text-sm leading-relaxed">
                 {member.description}
               </p>
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center mt-4 text-muted hover:text-primary transition-colors duration-200"
+                aria-label={`${member.name} LinkedIn`}
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
             </motion.div>
           ))}
         </div>

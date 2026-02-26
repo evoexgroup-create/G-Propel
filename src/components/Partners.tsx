@@ -5,23 +5,29 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const partners = [
-  { name: "EnergyLab", logo: "/partners/energylab.png", height: 40, url: "https://energylab.org.au" },
-  { name: "PlusEight", logo: "/partners/pluseight.png", height: 40, url: "https://pluseight.spacecubed.com/" },
-  { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
-  { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
-  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://www.theaarp.com.au/" },
-  { name: "City of Canning", logo: "/partners/canning.webp", height: 45, url: "https://www.canning.wa.gov.au", filter: "grayscale invert brightness-200" },
-  { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
-  { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45, url: "https://www.fremantle.wa.gov.au" },
-  { name: "Meshpoints", logo: null, height: 0, url: "https://www.meshpoints.com/" },
+  // Row 1
   { name: "Fraunhofer Germany", logo: "/partners/Fraunhofer.jpg", height: 40, url: "https://www.fraunhofer.de/en.html" },
   { name: "AIMS.GOV", logo: "/partners/AIMS-.jpg", height: 45, url: "https://www.aims.gov.au" },
-  { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40, url: "https://www.bits-pilani.ac.in/dubai" },
-  { name: "WSU", logo: "/partners/wsu.png", height: 40, url: "https://www.westernsydney.edu.au" },
-  { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40, url: "https://www.mq.edu.au" },
-  { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40, url: "https://www.swinburne.edu.au" },
-  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40, url: "https://www.appcs.in/" },
   { name: "CSIRO", logo: "/partners/CSIRO-.jpg", height: 40, url: "https://www.csiro.au" },
+  { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
+  { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://www.theaarp.com.au/" },
+  // Row 2
+  { name: "WSU", logo: "/partners/wsu.png", height: 40, url: "https://www.westernsydney.edu.au" },
+  { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40, url: "https://www.bits-pilani.ac.in/dubai" },
+  { name: "CORE WA", logo: "/partners/Core.png", height: 40, url: "https://www.corehub.com.au/" },
+  { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40, url: "https://www.swinburne.edu.au" },
+  { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40, url: "https://www.mq.edu.au" },
+  // Row 3
+  { name: "EnergyLab", logo: "/partners/energylab.png", height: 20, url: "https://energylab.org.au", maxWidth: 70 },
+  { name: "City of Canning", logo: "/partners/canning.webp", height: 45, url: "https://www.canning.wa.gov.au", filter: "grayscale invert brightness-200" },
+  { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45, url: "https://www.fremantle.wa.gov.au" },
+  { name: "Meshpoints", logo: null, height: 0, url: "https://www.meshpoints.com/" },
+  { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
+  // Row 4
+  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40, url: "https://www.appcs.in/" },
+  { name: "Lotterywest", logo: "/partners/Lotterywest.png", height: 40, url: "https://www.lotterywest.wa.gov.au/" },
+  { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 40, url: "https://www.climate-kic.org/" },
+  { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
   { name: "Curtin University", logo: "/partners/Curtin University.jpg", height: 40, url: "https://www.curtin.edu.au/" },
 ];
 
@@ -73,9 +79,10 @@ export default function Partners() {
                 <Image
                   src={partner.logo}
                   alt={partner.name}
-                  width={140}
+                  width={"maxWidth" in partner ? partner.maxWidth : 140}
                   height={partner.height}
                   className={`object-contain max-h-12 w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300 ${"filter" in partner ? partner.filter : ""}`}
+                  style={"maxWidth" in partner ? { maxWidth: partner.maxWidth } : undefined}
                 />
               ) : (
                 <span className="text-sm font-bold text-muted group-hover:text-foreground transition-colors text-center leading-tight tracking-wide">

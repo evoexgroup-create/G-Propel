@@ -18,13 +18,13 @@ const partners = [
   { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40, url: "https://www.swinburne.edu.au" },
   { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40, url: "https://www.mq.edu.au" },
   // Row 3
-  { name: "EnergyLab", logo: "/partners/energylab.png", height: 20, url: "https://energylab.org.au", maxWidth: 70 },
+  { name: "EnergyLab", logo: "/partners/energylab.png", height: 26, url: "https://energylab.org.au", maxWidth: 91 },
   { name: "City of Canning", logo: "/partners/canning.webp", height: 45, url: "https://www.canning.wa.gov.au", filter: "grayscale invert brightness-200" },
   { name: "City of Fremantle", logo: "/partners/fremantle.svg", height: 45, url: "https://www.fremantle.wa.gov.au" },
   { name: "Meshpoints", logo: null, height: 0, url: "https://www.meshpoints.com/" },
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
   // Row 4
-  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 90, url: "https://www.appcs.in/", maxHeight: "max-h-[108px]" },
+  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 90, url: "https://www.appcs.in/", maxHeight: "max-h-20", maxWidth: 210 },
   { name: "Lotterywest", logo: "/partners/Lotterywest.png", height: 40, url: "https://www.lotterywest.wa.gov.au/" },
   { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 60, url: "https://climate-kic.org.au/", maxHeight: "max-h-[72px]" },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },

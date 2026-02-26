@@ -34,6 +34,24 @@ const posts = [
     url: "https://www.linkedin.com/posts/leahlucas_gapblitz-startups-innovation-activity-7302476135953481728-HXyh/",
   },
   {
+    title: "CORE Start — Accelerating GPropel's Mission",
+    excerpt:
+      "A huge thank you from GPropel for being part of the CORE Start program — essential fuel that accelerated our momentum. With mentors Kate and Anna shaping our direction, we're expanding zero-fuel mobility driven by electromagnetism beyond land into marine propulsion. The future of power is contactless.",
+    date: "Jun 2025",
+    category: "Accelerator",
+    image: "/blog/blog5.jpg.png",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7387446252042510336/",
+  },
+  {
+    title: "AARP Innovation Showcase — GPropel on Stage",
+    excerpt:
+      "Sam represented GPropel at the AARP Innovation Showcase's first-year anniversary — a fantastic platform spotlighting future mobility innovations. Strong media coverage, inspiring conversations, and a tease of what's next: a mobility surprise from GPropel, powered by new physics.",
+    date: "Dec 2025",
+    category: "Events",
+    image: "/blog/blog6.jpg.png",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7405085128563179520/",
+  },
+  {
     title: "WPU vs. WPT — and Why It Matters",
     excerpt:
       "Many wireless mobility systems work with Wireless Power Transfer (WPT) — charging batteries via coils. GPropel's approach is Wireless Power Utilisation (WPU) — which skips the charging step entirely.",

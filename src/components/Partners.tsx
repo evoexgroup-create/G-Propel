@@ -24,7 +24,7 @@ const partners = [
   { name: "Meshpoints", logo: null, height: 0, url: "https://www.meshpoints.com/" },
   { name: "Spacecubed", logo: "/partners/spacecubed.svg", height: 30, url: "https://www.spacecubed.com" },
   // Row 4
-  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 60, url: "https://www.appcs.in/", maxHeight: "max-h-[72px]" },
+  { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 90, url: "https://www.appcs.in/", maxHeight: "max-h-[108px]" },
   { name: "Lotterywest", logo: "/partners/Lotterywest.png", height: 40, url: "https://www.lotterywest.wa.gov.au/" },
   { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 60, url: "https://climate-kic.org.au/", maxHeight: "max-h-[72px]" },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },

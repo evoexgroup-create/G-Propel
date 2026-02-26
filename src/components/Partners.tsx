@@ -8,13 +8,13 @@ const partners = [
   // Row 1
   { name: "Fraunhofer Germany", logo: "/partners/Fraunhofer.jpg", height: 40, url: "https://www.fraunhofer.de/en.html" },
   { name: "AIMS.GOV", logo: "/partners/AIMS-.jpg", height: 45, url: "https://www.aims.gov.au" },
-  { name: "CSIRO", logo: "/partners/CSIRO-.jpg", height: 40, url: "https://www.csiro.au" },
+  { name: "CSIRO", logo: "/partners/CSIRO-.jpg", height: 60, url: "https://www.csiro.au", maxHeight: "max-h-[72px]" },
   { name: "Propel Fremantle", logo: null, height: 0, url: "https://propelfremantle.com.au" },
   { name: "Australian Automation and Robotics Precinct", logo: "/partners/aarp.svg", height: 50, url: "https://www.theaarp.com.au/" },
   // Row 2
   { name: "WSU", logo: "/partners/wsu.png", height: 40, url: "https://www.westernsydney.edu.au" },
   { name: "BITS Pilani Dubai", logo: "/partners/bits-pilani.jpg", height: 40, url: "https://www.bits-pilani.ac.in/dubai" },
-  { name: "CORE WA", logo: "/partners/Core.png", height: 40, url: "https://www.corehub.com.au/" },
+  { name: "CORE WA", logo: "/partners/Core.png", height: 40, url: "https://www.corehub.com.au/aarp" },
   { name: "Swinburne University", logo: "/partners/swinburne.jpg", height: 40, url: "https://www.swinburne.edu.au" },
   { name: "MQU", logo: "/partners/Macquarie University Sydney Australia.jpg", height: 40, url: "https://www.mq.edu.au" },
   // Row 3
@@ -26,7 +26,7 @@ const partners = [
   // Row 4
   { name: "Apparent Power Control System", logo: "/partners/appcs.jpg", height: 40, url: "https://www.appcs.in/" },
   { name: "Lotterywest", logo: "/partners/Lotterywest.png", height: 40, url: "https://www.lotterywest.wa.gov.au/" },
-  { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 40, url: "https://www.climate-kic.org/" },
+  { name: "Climate-KIC", logo: "/partners/ClimateKIC.png", height: 40, url: "https://climate-kic.org.au/" },
   { name: "Fremantle Chamber of Commerce", logo: "/partners/fcc.png", height: 45, url: "https://fremantlechamber.com.au" },
   { name: "Curtin University", logo: "/partners/Curtin University.jpg", height: 40, url: "https://www.curtin.edu.au/" },
 ];
@@ -81,7 +81,7 @@ export default function Partners() {
                   alt={partner.name}
                   width={"maxWidth" in partner ? partner.maxWidth : 140}
                   height={partner.height}
-                  className={`object-contain max-h-12 w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300 ${"filter" in partner ? partner.filter : ""}`}
+                  className={`object-contain ${"maxHeight" in partner ? partner.maxHeight : "max-h-12"} w-auto opacity-60 group-hover:opacity-100 transition-opacity duration-300 ${"filter" in partner ? partner.filter : ""}`}
                   style={"maxWidth" in partner ? { maxWidth: partner.maxWidth } : undefined}
                 />
               ) : (

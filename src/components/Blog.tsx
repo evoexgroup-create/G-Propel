@@ -7,6 +7,15 @@ import Image from "next/image";
 
 const posts = [
   {
+    title: "AARP Innovation Showcase — GPropel on Stage",
+    excerpt:
+      "Sam represented GPropel at the AARP Innovation Showcase's first-year anniversary — a fantastic platform spotlighting future mobility innovations. Strong media coverage, inspiring conversations, and a tease of what's next: a mobility surprise from GPropel, powered by new physics.",
+    date: "Dec 2025",
+    category: "Events",
+    image: "/blog/blog6.jpg.png",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7405085128563179520/",
+  },
+  {
     title: "GPropel at Demo Night — Propel Fremantle",
     excerpt:
       "Sam Saravanan took the stage at Demo Night hosted at Propel Fremantle, sharing GPropel's vision for zero-emission road-powered transport with founders, investors, and innovation leaders.",
@@ -41,15 +50,6 @@ const posts = [
     category: "Accelerator",
     image: "/blog/blog5.jpg.png",
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7387446252042510336/",
-  },
-  {
-    title: "AARP Innovation Showcase — GPropel on Stage",
-    excerpt:
-      "Sam represented GPropel at the AARP Innovation Showcase's first-year anniversary — a fantastic platform spotlighting future mobility innovations. Strong media coverage, inspiring conversations, and a tease of what's next: a mobility surprise from GPropel, powered by new physics.",
-    date: "Dec 2025",
-    category: "Events",
-    image: "/blog/blog6.jpg.png",
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7405085128563179520/",
   },
   {
     title: "WPU vs. WPT — and Why It Matters",
